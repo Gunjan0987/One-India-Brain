@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="420" height="100" fill="none">
+  <!-- Left Emblem Shield Logo -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Shield Container -->
+    <rect x="5" y="5" width="70" height="70" rx="16" fill="#2563EB" />
+    
+    <!-- Shield Outline Accent -->
+    <path d="M 40 18 L 62 26 V 46 C 62 58 40 68 40 68 C 40 68 18 58 18 46 V 26 L 40 18 Z" 
+          fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Inner Cross-Domain Node Connections -->
+    <circle cx="40" cy="34" r="5" fill="#FFFFFF" />
+    <circle cx="29" cy="48" r="3.5" fill="#60A5FA" />
+    <circle cx="51" cy="48" r="3.5" fill="#34D399" />
+    
+    <line x1="40" y1="34" x2="29" y2="48" stroke="#FFFFFF" stroke-width="2" />
+    <line x1="40" y1="34" x2="51" y2="48" stroke="#FFFFFF" stroke-width="2" />
+    <line x1="29" y1="48" x2="51" y2="48" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="2 2" />
+  </g>
+
+  <!-- Right Typography (ONE INDIA BRAIN COMMAND CENTRE) -->
+  <g transform="translate(98, 0)">
+    <!-- Main Brand Title -->
+    <text x="0" y="38" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="22" font-weight="900" fill="#0F172A" letter-spacing="1.2">
+      ONE INDIA BRAIN
+    </text>
+    
+    <!-- Sub Brand Title -->
+    <text x="0" y="59" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="13" font-weight="800" fill="#2563EB" letter-spacing="2">
+      COMMAND CENTRE
+    </text>
+    
+    <!-- Tagline -->
+    <text x="0" y="77" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="10" font-weight="600" fill="#64748B" letter-spacing="0.8">
+      Cross-Domain Emergency Intelligence
+    </text>
+  </g>
+</svg>
